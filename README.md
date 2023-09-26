@@ -1,6 +1,8 @@
 # ws_svgcrop
 通过python代码，将PDF转为SVG后，自动裁剪SVG图片
 
+！！！将这些文件与需要转换的PDF文件放在同一个文件夹下！！！
+
 对于 debian/ubuntu 用户:
 首先安装 inkscape & imagemagick
 ```
@@ -23,6 +25,8 @@ bash Parallel_remove_whitespace.bash
 
 # ws_svgcrop
 A bash &amp; python code to convert PDF to SVG, and remove SVG whitespace automaticly.
+
+! ! ! Place these files in the same folder as the PDF files that need to be converted！！！
 
 for debian/ubuntu users:
 First install inkscape & imagemagick
