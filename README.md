@@ -11,7 +11,7 @@ After install conda environment （Tsinghua source: https://mirrors.tuna.tsinghu
 ```
 pip install wand
 ```
-Now convert all pdfs in the same folder to SVG
+Now convert all PDFs in the same folder to SVG
 ```
 bash parallel_pdf_to_svg.bash 
 ```
