@@ -6,6 +6,7 @@ First install inkscape & imagemagick
 ```
 sudo apt install inkscape
 sudo apt install imagemagick
+sudo apt install parallel
 ```
 After install conda environment （Tsinghua source: https://mirrors.tuna.tsinghua.edu.cn/anaconda/archive/）
 ```
@@ -28,6 +29,7 @@ bash Parallel_remove_whitespace.bash
 ```
 sudo apt install inkscape
 sudo apt install imagemagick
+sudo apt install parallel
 ```
 之后安装conda环境 （Tsinghua source: https://mirrors.tuna.tsinghua.edu.cn/anaconda/archive/）
 ```
