@@ -1,5 +1,5 @@
 # ws_svgcrop
-#V0.1.5使用说明：
+# V0.1.5使用说明：
 通过python代码，将PDF转为SVG后，自动裁剪SVG图片
 
 ！！！将这些文件与需要转换的PDF文件放在同一个文件夹下！！！
@@ -23,14 +23,14 @@ bash parallel_pdf_to_svg.bash
 ```
 bash Parallel_remove_whitespace.bash
 ```
-#V0.1.7使用说明：
+# V0.1.7使用说明：
 ```
 python parallel_pdf_to_svg_0.1.7.py
 python remove_svg_whitespace_v0.1.7.py
 ```
 
 # ws_svgcrop
-#For V0.1.5:
+# For V0.1.5:
 A bash &amp; python code to convert PDF to SVG, and remove SVG whitespace automaticly.
 
 ! ! ! Place these files in the same folder as the PDF files that need to be converted！！！
@@ -54,7 +54,7 @@ Automatic cropping SVG whitespace
 ```
 bash Parallel_remove_whitespace.bash
 ```
-#For V0.1.7：
+# For V0.1.7：
 ```
 python parallel_pdf_to_svg_0.1.7.py
 python remove_svg_whitespace_v0.1.7.py
