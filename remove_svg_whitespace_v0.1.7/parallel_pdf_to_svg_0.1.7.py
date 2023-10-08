@@ -25,8 +25,5 @@ pdf_directory = Path(os.path.dirname(os.path.realpath(__file__)))
 # Get a list of PDF files
 pdf_files = list(pdf_directory.glob('*.pdf'))
 
-# Set the number of parallel jobs
-max_jobs = 4  # Adjust this based on your system's capacity
-
 # Use joblib to parallelize the conversion
-joblib.Parallel(n_jobs=max_jobs)(joblib.delayed(convert_pdf_to_svg)(pdf_file) for pdf_file in pdf_files)
+joblib.Parallel(n_jobs=-1)(joblib.delayed(convert_pdf_to_svg)(pdf_file) for pdf_file in pdf_files)
