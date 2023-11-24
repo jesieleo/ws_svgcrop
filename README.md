@@ -28,7 +28,10 @@ bash Parallel_remove_whitespace.bash
 python parallel_pdf_to_svg_0.1.7.py
 python remove_svg_whitespace_v0.1.7.py
 ```
-
+# v0.2.0使用说明：
+```
+直接下载可执行文件，双击无法使用时，右键->属性->权限->允许执行文件
+```
 # ws_svgcrop
 # For V0.1.5:
 A bash &amp; python code to convert PDF to SVG, and remove SVG whitespace automaticly.
@@ -59,7 +62,7 @@ bash Parallel_remove_whitespace.bash
 python parallel_pdf_to_svg_0.1.7.py
 python remove_svg_whitespace_v0.1.7.py
 ```
-
-
-
-
+# For V0.2.0：
+```
+Download the executable file directly, and when double-clicking it does not work, right-click -> Properties -> Permissions -> Allow execution of file
+```
